@@ -1,0 +1,46 @@
+body {
+    background-color: #f8f9fa;
+	font-family: 'Urbanist', sans-serif;
+	letter-spacing: 1px;
+}
+
+h1,H3{
+    font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+	
+}
+.container {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#header-2{
+	background-image: url('images/container-22.avif')	;
+	background-size: cover;
+}
+
+.countdown {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-inline {
+    flex-direction: column;
+}
+
+@media (min-width: 576px) {
+    .form-inline {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .form-group {
+        margin-right: 10px;
+    }
+}
